@@ -1,0 +1,30 @@
+{
+  "name": "siebogjs-restws",
+  "version": "1.0.0",
+  "description": "\"Rest and WebSocket services\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiebogJS/RestWS.git"
+  },
+  "keywords": [
+    "rest",
+    "ws",
+    "express.js",
+    "socket.io"
+  ],
+  "author": "Aleksandar Lukić",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SiebogJS/RestWS/issues"
+  },
+  "homepage": "https://github.com/SiebogJS/RestWS#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.7.1",
+    "siebogjs-common": "file:./lib/Common"
+  }
+}
